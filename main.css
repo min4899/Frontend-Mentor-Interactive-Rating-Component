@@ -51,6 +51,7 @@ p {
   color: var(--orange);
   padding: 0.4rem 0.9rem;
   border-radius: 1.3rem;
+  font-size: 1rem;
 }
 
 .column-center {
@@ -99,6 +100,10 @@ p {
   place-items: center;
 }
 
+.rating {
+  font-size: 1rem;
+}
+
 .ratings {
   display: flex;
   flex-direction: row;
@@ -127,6 +132,7 @@ p {
   border: none;
   color: var(--white);
   background-color: var(--orange);
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.15rem;
 }

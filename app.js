@@ -15,8 +15,8 @@ function submit_rating() {
     // set rating for next page
     document.getElementById("rating-result").textContent = `You selected ${selectedRating} out of 5`;
     // go to next page
-    document.getElementById("page1").style.display = "none";
-    document.getElementById("page2").style.display = "flex";
+    document.getElementById("slide1").style.display = "none";
+    document.getElementById("slide2").style.display = "flex";
 
     console.log(`You selected ${selectedRating}`);
   } 
