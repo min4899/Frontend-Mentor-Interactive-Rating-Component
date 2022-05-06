@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Rating Component</title>
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class="pop-up-container column-center">
+    <div class="feedback-container column-center">
       
-      <div id="page1">
+      <div id="slide1">
         <div class="circle">
           <object data="icon-star.svg"></object>
         </div>
@@ -46,7 +45,7 @@
         <input type="submit" value="SUBMIT" class="submit btn margin-top-double fade-transition" onclick="submit_rating()"></input>
       </div>
 
-      <div id="page2" class="column-center align-all-center">
+      <div id="slide2" class="column-center align-all-center">
         <object data="illustration-thank-you.svg" class="margin-top"></object>
         <div id="rating-result" class="margin-top-double">You selected # out of 5</div>
         <h1 class="margin-top-double">Thank you!</h1>
