@@ -42,10 +42,6 @@ p {
   padding: 1rem 0;
 }
 
-#slide2 {
-  display: none;
-}
-
 #rating-result {
   background-color: var(--darkBlue);
   color: var(--orange);
@@ -81,6 +77,10 @@ p {
 .btn {
   border: none;
   cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
 
 .container {

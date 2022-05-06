@@ -1,22 +1,26 @@
 "use strict";
 
-function submit_rating() {
-  var ele = document.getElementsByName("rating");
+const rating = document.getElementById("slide1");
+const thankYou = document.getElementById("slide2");
+const radioBtns =  document.getElementsByName("rating");
+const finalRatingHeader = document.getElementById("rating-result");
 
+function submit_rating() {
+  // get rating #
   let selectedRating;
-  for (let i = 0; i < ele.length; i++) {
-    if (ele[i].checked) {
-      selectedRating = ele[i].value;
+  for (let i = 0; i < radioBtns.length; i++) {
+    if (radioBtns[i].checked) {
+      selectedRating = radioBtns[i].value;
       break;
     }
   }
 
   if (selectedRating) {
-    // set rating for next page
-    document.getElementById("rating-result").textContent = `You selected ${selectedRating} out of 5`;
+    // set rating for next slide
+    finalRatingHeader.textContent = `You selected ${selectedRating} out of 5`;
     // go to next page
-    document.getElementById("slide1").style.display = "none";
-    document.getElementById("slide2").style.display = "flex";
+    rating.classList.add('hide');
+    thankYou.classList.remove('hide');
 
     console.log(`You selected ${selectedRating}`);
   } 
