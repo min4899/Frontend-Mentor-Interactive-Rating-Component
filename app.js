@@ -24,18 +24,3 @@ function submit_rating() {
     console.log(`You haven't selected any rating`);
   }
 }
-
-function display_rating() {
-  var ele = document.getElementsByName("rating");
-
-  let selectedRating;
-  for (let i = 0; i < ele.length; i++) {
-    if (ele[i].checked) {
-      selectedRating = ele[i].value;
-      break;
-    }
-  }
-
-  if (selectedRating) console.log(`You selected ${selectedRating}`);
-  else console.log(`You haven't selected any rating`);
-}
