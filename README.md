@@ -72,6 +72,7 @@ I feel like there's a better solution, but this was the best I could think of at
 
 - [Model Popup Box Using HTML CSS & Vanilla JAVASCRIPT || Popup Box With Emoji Rating Effects](https://youtu.be/3rqwjYda2KM) - This video helped me to create the custom radio buttons for the ratings part.
 - [How to get value of selected radio button using JavaScript?](https://www.geeksforgeeks.org/how-to-get-value-of-selected-radio-button-using-javascript/#:~:text=To%20get%20the%20value%20of,is%20selected%20and%20False%20otherwise.) - This article helped me to figure how to access the ratings radio buttons in JavaScript.
+- [CSS Clamp(): The Responsive Combination We’ve All Been Waiting For](https://blog.bitsrc.io/css-clamp-the-responsive-combination-weve-all-been-waiting-for-f1ce1981ea6e) - How to use clamp.
 
 ## Author
 
