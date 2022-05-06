@@ -14,7 +14,7 @@
   <body>
     <div class="container column-center" role="main">
       
-      <div id="slide1">
+      <section id="slide1">
         <div class="circle">
           <object data="icon-star.svg" aria-label="Star Icon"></object>
         </div>
@@ -23,34 +23,34 @@
         <div class="ratings margin-top">
           <label for="btn1">
             <input type="radio" name="rating" value="1" id="btn1">
-            <div class="circle btn rating fade-transition">1</div>
+            <span class="circle btn rating fade-transition">1</span>
           </label>
           <label for="btn2">
             <input type="radio" name="rating" value="2" id="btn2">
-            <div class="circle btn rating fade-transition">2</div>
+            <span class="circle btn rating fade-transition">2</span>
           </label>
           <label for="btn3">
             <input type="radio" name="rating" value="3" id="btn3">
-            <div class="circle btn rating fade-transition">3</div>
+            <span class="circle btn rating fade-transition">3</span>
           </label>
           <label for="btn4">
             <input type="radio" name="rating" value="4" id="btn4">
-            <div class="circle btn rating fade-transition">4</div>
+            <span class="circle btn rating fade-transition">4</span>
           </label>
           <label for="btn5">
             <input type="radio" name="rating" value="5" id="btn5">
-            <div class="circle btn rating fade-transition">5</div>
+            <span class="circle btn rating fade-transition">5</span>
           </label>
         </div>
         <input type="submit" value="SUBMIT" class="submit btn margin-top-double fade-transition" onclick="submit_rating()"></input>
-      </div>
+      </section>
 
-      <div id="slide2" class="column-center align-all-center">
+      <section id="slide2" class="column-center align-all-center">
         <object data="illustration-thank-you.svg" aria-label="Thank You Illustration" class="margin-top"></object>
         <div id="rating-result" class="margin-top-double">You selected # out of 5</div>
         <h1 class="margin-top-double">Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
-      </div>
+      </section>
 
     </div>
     <script src="app.js"></script>

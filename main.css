@@ -115,12 +115,12 @@ p {
   display: none;
 }
 
-.ratings input:checked ~ div {
+.ratings input:checked ~ span {
   color: var(--white);
   background-color: var(--lightGrey);
 }
 
-.ratings input:hover ~ div {
+.ratings input:hover ~ span {
   color: var(--white);
   background-color: var(--orange);
 }
