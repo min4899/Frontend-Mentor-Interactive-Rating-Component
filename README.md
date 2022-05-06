@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.ppg)
+![](./screenshot.png)
 
 
 ### Links
@@ -66,7 +66,7 @@ for (let i = 0; i < ele.length; i++) {
 ### Continued development
 
 I'd like to focus on responsive layouts for different screens for future projects. This project had designs that showed slight changes to layouts between 375px and 1440 px that I couldn't manage to implement perfectly. 
-I'd also like to learn how to properly change panels and hiding/showing different content. My implementation just had 2 divs for the 2 different states. After submitting a rating, the 1st state div would be set to `display: none` while the 2nd would set to `display: flex'.
+I'd also like to learn how to properly change panels and hiding/showing different content. My implementation just had 2 divs for the 2 different states. After submitting a rating, the 1st state div would be set to `display: none` while the 2nd would set to `display: flex`.
 I feel like there's a better solution, but this was the best I could think of at the time.
 
 ### Useful resources
