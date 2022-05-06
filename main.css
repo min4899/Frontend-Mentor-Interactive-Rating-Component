@@ -35,8 +35,8 @@ body {
 
 h1 {
   font-size: 1.75rem;
-  font-weight: 500;
-  color: var(--white)
+  font-weight: 700;
+  color: var(--white);
 }
 
 p {
@@ -92,18 +92,20 @@ p {
 }
 
 .pop-up-container {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   background: radial-gradient(circle at center top, hsl(215, 20%, 17%) 0%, hsl(215, 27%, 12%) 100%);
   /* background: radial-gradient(circle at center top, var(--darkBlue) 0%, var(--veryDarkBlue) 100%); */
-  width: clamp(23rem, 60%, 24.8rem);
-  padding: 1.6rem;
+  width: clamp(23rem, 50%, 26.5rem);
+  /* padding: 2rem 2rem; */
+  /* padding: 2rem clamp(1.5rem, 3vw, 2rem); */
+  padding: 2rem clamp(1.5rem, 2.5vw, 2rem);
 }
 
 .circle {
   background-color: var(--darkBlue);
   border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
+  width: 3.3rem;
+  height: 3.3rem;
   text-align: center;
   display: grid;
   place-items: center;
