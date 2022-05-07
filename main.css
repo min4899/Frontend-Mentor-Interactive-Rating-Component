@@ -86,10 +86,10 @@ p {
 
 .card-container {
   background: radial-gradient(circle at center top, hsl(215, 20%, 17%) 0%, hsl(215, 27%, 12%) 100%);
-  width: clamp(23rem, 50%, 26.5rem);
+  width: clamp(23rem, 50%, 27rem);
   height: fit-content;
-  padding: 2rem clamp(1.5rem, 2.5vw, 2rem);
-  border-radius: 1.5rem;
+  padding: 2rem clamp(1.5rem, 3.55vw, 2rem);
+  border-radius: 1.8rem;
 }
 
 .circle {
