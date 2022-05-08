@@ -7,7 +7,7 @@
   --orange: hsl(25, 97%, 53%);
 }
 
-*, 
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -16,7 +16,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 93.75%; /* similar to 15px */
   font-weight: 400;
   color: var(--mediumGrey);
@@ -58,10 +58,6 @@ p {
   margin-top: 2rem;
 }
 
-.fade-transition {
-  transition: all .1s linear;
-}
-
 .btn {
   border: none;
   cursor: pointer;
@@ -85,7 +81,11 @@ p {
 }
 
 .card-container {
-  background: radial-gradient(circle at center top, hsl(215, 20%, 17%) 0%, hsl(215, 27%, 12%) 100%);
+  background: radial-gradient(
+    circle at center top,
+    hsl(215, 20%, 17%) 0%,
+    hsl(215, 27%, 12%) 100%
+  );
   width: clamp(23rem, 50%, 27rem);
   height: fit-content;
   padding: 2rem clamp(1.5rem, 3.55vw, 2rem);
@@ -146,4 +146,33 @@ p {
 
 .hide {
   display: none;
+}
+
+#slide2 {
+  animation: fade-in 0.2s ease-in-out;
+  -webkit-animation: fade-in 0.2s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
